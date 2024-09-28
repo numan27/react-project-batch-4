@@ -1,9 +1,9 @@
 import React from "react";
 
-const CustomDesc = ({ title }) => {
+const CustomDesc = ({ title, textColor = "#90909c" }) => {
   return (
     <div>
-      <p style={{ color: "#90909c" }} className="fs-6">
+      <p style={{ color: textColor }} className="fs-6">
         {title}
       </p>
     </div>

@@ -80,6 +80,40 @@
   height: 50px;
 }
 
+/* Stats Section */
+
+.statsSection {
+  background-color: #EFEBF8;
+  /* z-index: 99 !important; */
+  position: relative;
+  /* padding-bottom: 200px !important; */
+}
+
+.stats-heading {
+  font-size: 5rem;
+  font-weight: bolder;
+  color: #D42B8B;
+
+}
+
+.gradient-box {
+  background: linear-gradient(45deg, #8333c8, #2e8cc4, #8760b2, #ff229d);
+  border-radius: 50px;
+  position: absolute;
+  right: 80px;
+  left: 80px;
+  bottom: -140px;
+  /* margin-bottom: -200px; */
+  /* z-index: 999 !important; */
+
+}
+
+/* review-section */
+.review-section {
+  height: 70vh;
+  background-color: #2F1444;
+  /* z-index: 10 !important; */
+}
 
 /* Tablet */
 @media screen and (max-width: 768px) {

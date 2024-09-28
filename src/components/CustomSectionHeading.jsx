@@ -4,9 +4,13 @@ const CustomSectionHeading = ({
   title,
   isSmallHeading,
   textAlign = "left",
+  textColor,
 }) => {
   return (
-    <div style={{ textAlign: textAlign }} className="sectionHeading">
+    <div
+      style={{ textAlign: textAlign, color: textColor }}
+      className="sectionHeading"
+    >
       {isSmallHeading ? (
         <h4 className="fw-bold">{title}</h4>
       ) : (

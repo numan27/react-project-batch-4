@@ -1,8 +1,8 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import logo from "../assets/images/logo.png";
 import { Button } from "react-bootstrap";
+import IMAGES from "../assets/images";
 
 function Header() {
   return (
@@ -13,7 +13,7 @@ function Header() {
     >
       <Container>
         <Navbar.Brand href="#home">
-          <img width={90} src={logo} alt="logo-img" />
+          <img width={90} src={IMAGES.logo} alt="logo-img" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
